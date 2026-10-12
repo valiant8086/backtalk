@@ -2,6 +2,12 @@
 
 Backtalk is a fork of [Google's TalkBack](https://github.com/google/talkback), the screen reader for blind and visually-impaired users of Android. It adds fixes and features on top of Google's source releases. It is not affiliated with Google.
 
+## This fork
+
+This is Aaron Spears's fork of [Backtalk](https://github.com/trypsynth/backtalk). It has Backtalk's changes, plus changes that are not merged into Backtalk yet. Each of those is also a pull request to Backtalk.
+
+The fork installs as **Backtalk Valiant8086**, with the app ID `io.github.valiant8086.backtalk`, so it installs next to Backtalk instead of replacing it. The two apps have separate settings. Its development builds are on the fork's [dev release](https://github.com/valiant8086/backtalk/releases/tag/dev) page. Where the rest of this readme names the app ID `fyi.quin.backtalk`, as in adb commands, use `io.github.valiant8086.backtalk` for this fork. The rest of this readme describes Backtalk.
+
 ## Goals
 
 *   Make Backtalk faster and more responsive for people who use their phone quickly.

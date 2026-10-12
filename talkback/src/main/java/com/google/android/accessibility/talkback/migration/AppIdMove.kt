@@ -33,7 +33,7 @@ object AppIdMove {
   const val NEW_PACKAGE = "fyi.quin.backtalk"
 
   /** Guards the settings export and the hand-over. Both apps declare and hold it. */
-  const val PERMISSION = "fyi.quin.backtalk.permission.MIGRATE"
+  const val PERMISSION = "io.github.valiant8086.backtalk.permission.MIGRATE"
 
   /** Sent by the new app to the old one when the new screen reader is on. */
   const val ACTION_HAND_OVER = "fyi.quin.backtalk.action.HAND_OVER"

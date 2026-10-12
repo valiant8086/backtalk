@@ -51,7 +51,7 @@ import com.google.android.libraries.accessibility.utils.log.LogUtils
 object SpeechControl {
   private const val TAG = "SpeechControl"
 
-  const val PERMISSION = "fyi.quin.backtalk.permission.SPEAK"
+  const val PERMISSION = "io.github.valiant8086.backtalk.permission.SPEAK"
 
   const val ACTION_SPEAK = "fyi.quin.backtalk.action.SPEAK"
   const val ACTION_STOP = "fyi.quin.backtalk.action.STOP_SPEECH"
